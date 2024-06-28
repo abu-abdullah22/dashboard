@@ -1,4 +1,6 @@
 import React from 'react';
+import { RiBarChartBoxFill } from "react-icons/ri";
+import { FaCartShopping } from "react-icons/fa6";
 
 const DashboardLayout = () => {
     return (
@@ -14,8 +16,9 @@ const DashboardLayout = () => {
                 <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu bg-[#F1F2F7] text-base-content min-h-full w-80 p-4">
                     {/* Sidebar content here */}
-                    <li><a>Sidebar Item 1</a></li>
-                    <li><a>Sidebar Item 2</a></li>
+                    <h1 className='ml-4 text-lg text-[#082431] mb-2'>Menu</h1>
+                    <li className='text-[#273240] text-xl hover:bg-[#E4E6F4] hover:text-[#5A6ACF]'><a> <RiBarChartBoxFill className='text-3xl rounded-full' /> Dashboard</a></li>
+                    <li className='text-[#273240] text-xl hover:bg-[#E4E6F4] hover:text-[#5A6ACF]'><a><FaCartShopping className='text-2xl' /> Food Order</a></li>
                 </ul>
             </div>
         </div>
