@@ -1,11 +1,10 @@
 import React from 'react';
-import { FaSearch } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
         <div className="flex justify-between items-center bg-base-100  border-b-[0.5px] border-[#C8CBD9]">
             <div className="bg-[#F1F2F7] shadow-lg shadow-[#C8CBD9] p-5 lg:w-[320px]">
-                <a className="text-[#5A67BA] pl-3 text-xl"><span className='text-white bg-[#5A67BA] p-[2px] pl-2 rounded-full mr-1'>G </span>Good Food</a>
+                <a className="text-[#5A67BA] font-bold pl-3 text-xl"><span className='text-white bg-[#5A67BA] py-[3px] pl-2 pr-[6px] rounded-full mr-1'>G </span>Good Food</a>
             </div>
       
                <div className='lg:flex-1 px-4 xl:ml-10'>
