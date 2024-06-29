@@ -44,7 +44,7 @@ const Sidebar = () => {
                     <li className='text-[#273240] text-xl hover:bg-[#E4E6F4] hover:text-[#5A6ACF] mb-2'><a style={iconStyle} onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}> <FaUser className='w-[26.67px] h-[26px]' /> <span className='text-[#273240] hover:text-[#5A6ACF]'> Accounts</span></a></li>
                     <li className='text-[#273240] text-xl hover:bg-[#E4E6F4] hover:text-[#5A6ACF] mb-2'><a style={iconStyle} onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}> <InfoSquare filled /> <span className='text-[#273240] hover:text-[#5A6ACF]'>Customer Review</span></a></li>
+                        onMouseLeave={handleMouseLeave}> <InfoSquare filled /> <span className='text-[#273240] hover:text-[#5A6ACF]'>Help</span></a></li>
                 </ul>
             </div>
         </IconlyProvider>

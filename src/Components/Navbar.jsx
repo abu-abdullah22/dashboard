@@ -1,4 +1,5 @@
 import React from 'react';
+import { IconlyProvider, Search } from 'react-iconly';
 
 const Navbar = () => {
     return (
@@ -6,14 +7,16 @@ const Navbar = () => {
             <div className="bg-[#F1F2F7] shadow-lg shadow-[#C8CBD9] p-5 lg:w-[320px]">
                 <a className="text-[#5A67BA] font-bold pl-3 text-xl"><span className='text-white bg-[#5A67BA] py-[3px] pl-2 pr-[6px] rounded-full mr-1'>G </span>Good Food</a>
             </div>
-      
-               <div className='lg:flex-1 px-4 xl:ml-10'>
-               <div className="form-control lg:w-[600px] ">
-                    <input type="text" placeholder="Search" className="input input-bordered w-40 md:w-auto" />
-                </div>
-               </div>
-              <div className='flex items-center'>
-              <div className="dropdown dropdown-end">
+
+            <div className='lg:flex-1 px-4 xl:ml-10'>
+                <IconlyProvider>
+                    <div className="form-control lg:w-[600px] relative">
+                        <input type="text" placeholder="Search" className="input w-40 md:w-auto bg-[#F5F6FB]" /> <Search style={{color:'#627B87', opacity:'0.5'}} className='absolute top-3 right-[10px]' />
+                    </div>
+                </IconlyProvider>
+            </div>
+            <div className='flex items-center'>
+                <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
                             <img
@@ -34,9 +37,9 @@ const Navbar = () => {
                         <li><a>Logout</a></li>
                     </ul>
                 </div>
-              </div>
             </div>
-   
+        </div>
+
     );
 };
 
