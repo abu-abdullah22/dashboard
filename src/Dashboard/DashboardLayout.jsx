@@ -1,6 +1,6 @@
 import React from 'react';
-import Sidebar from '../Components/Sidebar';
-import OpenSidebar from '../Components/OpenSidebar';
+import Sidebar from '../Components/Sidebar/Sidebar';
+import OpenSidebar from '../Components/Sidebar/OpenSidebar';
 
 
 const DashboardLayout = () => {

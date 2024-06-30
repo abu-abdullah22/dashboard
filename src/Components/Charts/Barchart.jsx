@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowUp, IconlyProvider } from 'react-iconly';
 
 import { BarChart, Bar, XAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import NewsLetter from './NewsLetter';
+import NewsLetter from '../NewsLetter';
 
 const data = [
     { date: '01', lastWeek: 3000, last6Days: 2000 },
@@ -33,7 +33,7 @@ const Barchart = () => {
                         </dialog>
                     </div>
                     <p className='text-[#000000] text-2xl font-medium'>IDR 7.852.000</p>
-                    <p className='flex items-center gap-1 '><span className='text-[#149D52] flex items-center '><ArrowUp />2.1%</span> vs last week</p>
+                    <p className='flex items-center gap-1 text-[#737B8B]'><span className='text-[#149D52] flex items-center '><ArrowUp />2.1%</span> vs last week</p>
                 </div>
 
                 <p className='text-[#000000] text-[17px] mt-6
