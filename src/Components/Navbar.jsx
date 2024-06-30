@@ -17,13 +17,15 @@ const Navbar = () => {
                     </div>
 
                 </div>
-                <div className='md:flex items-center'>
-                    <div className='flex items-center gap-3 md:mr-8'>
-                        <p className='p-3 bg-[#FFE6CC] rounded-full'>🍔</p>
-                    </div>
+                <div className='md:flex items-center mr-8'>
+
                     <div className="dropdown dropdown-bottom dropdown-end mr-5">
                         <div tabIndex={0} role="button">
-                            <p className='text-[#1F384C] text-sm lg:text-xl flex items-center gap-1'>Delicious Burger <ChevronDown style={{ color: '#1F384C', opacity: '0.5' }} /> </p>
+                            <div className='flex items-center gap-3 md:mr-3'>
+                                <p className='p-3 bg-[#FFE6CC] rounded-full'>🍔</p>
+                                <p className='text-[#1F384C] text-sm lg:text-xl flex items-center gap-1'>Delicious Burger <ChevronDown style={{ color: '#1F384C', opacity: '0.5' }} /> </p>
+                            </div>
+
                         </div>
                         <ul tabIndex={0} className="dropdown-content menu bg-white rounded-box z-[1] w-[250px] p-2 shadow">
                             <li className='my-4'><a> <Notification className='text-[#4F4F4F]' /> <span className='text-[#1D1D1D] text-[14px]'>Option 1</span></a></li>
@@ -46,9 +48,13 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div>
-                    <FaBell className="text-2xl text-[#B0C3CC] md:mr-10 relative" />
-                    <img src="/sign.png" alt="sign" className='absolute md:top-[35px] top-[45px] lg:top-[20px] right-0 w-[12px] md:right-10' />
+                <div className="relative flex items-center">
+                    <FaBell className="text-2xl text-[#B0C3CC] md:mr-10" />
+                    <img
+                        src="/sign.png"
+                        alt="sign"
+                        className="absolute transform translate-x-3 -translate-y-2 w-[12px]"
+                    />
                 </div>
             </div>
         </IconlyProvider>
