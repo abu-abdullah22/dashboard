@@ -17,12 +17,12 @@ const Navbar = () => {
                     </div>
 
                 </div>
-                <div className='md:flex items-center mr-8'>
+                <div className='md:flex items-center md:mr-8'>
 
                     <div className="dropdown dropdown-bottom dropdown-end mr-5">
                         <div tabIndex={0} role="button">
-                            <div className='flex items-center gap-3 md:mr-3'>
-                                <p className='p-3 bg-[#FFE6CC] rounded-full'>🍔</p>
+                            <div className='md:flex items-center gap-3 md:mr-3'>
+                                <p className='p-3   bg-[#FFE6CC] rounded-full'>🍔</p>
                                 <p className='text-[#1F384C] text-sm lg:text-xl flex items-center gap-1'>Delicious Burger <ChevronDown style={{ color: '#1F384C', opacity: '0.5' }} /> </p>
                             </div>
 

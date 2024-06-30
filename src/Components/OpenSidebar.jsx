@@ -5,7 +5,7 @@ const OpenSidebar = () => {
     return (
         <div className="drawer-content flex flex-col">
             {/* Page content here */}
-            <label htmlFor="my-drawer-2" className="btn bg-[#8382DE] text-white drawer-button lg:hidden">
+            <label htmlFor="my-drawer-2" className="btn bg-[#8382DE] text-white lg:hidden">
                 Open sidebar
             </label>
             <Outlet />

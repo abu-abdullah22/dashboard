@@ -6,7 +6,9 @@ const Dashboard = () => {
     
           <div>
             <h2 className='text-[#1F384C] text-[18px] font-medium ml-10 mt-10'>Dashboard</h2>
+            <div className='md:grid grid-cols-2'>
             <Barchart />
+            </div>
         </div>
    
     );
