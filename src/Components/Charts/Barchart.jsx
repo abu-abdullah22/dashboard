@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowUp, IconlyProvider } from 'react-iconly';
 
 import { BarChart, Bar, XAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import NewsLetter from '../NewsLetter';
+import NewsLetter from '../Shared/Navbar';
 
 const data = [
     { date: '01', lastWeek: 3000, last6Days: 2000 },

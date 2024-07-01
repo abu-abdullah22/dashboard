@@ -30,7 +30,7 @@ const Sidebar = () => {
                         </Link>
                     </li>
                     <li className='text-[#273240] text-xl hover:bg-[#E4E6F4] hover:text-[#5A6ACF] mb-2'>
-                        <Link to="/food-order" style={iconStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <Link to="/foodOrder" style={iconStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                             <Buy filled /> <span className='text-[#273240] hover:text-[#5A6ACF]'>Food Order</span>
                         </Link>
                     </li>

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import NewsLetter from '../NewsLetter';
+import NewsLetter from '../Shared/NewsLetter';
 
 
 const data = [

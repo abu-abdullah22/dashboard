@@ -1,4 +1,4 @@
-import Navbar from "./Components/Navbar"
+import Navbar from "./Components/Shared/Navbar"
 import DashboardLayout from "./Dashboard/DashboardLayout"
 
 function App() {
