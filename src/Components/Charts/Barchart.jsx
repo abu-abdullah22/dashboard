@@ -18,6 +18,18 @@ const data = [
     { date: '11', lastWeek: 3490, last6Days: 4000 },
     { date: '12', lastWeek: 3490, last6Days: 4200 },
 ];
+const COLORS = ['#5A6ACF', '#E6E8EC'];
+
+const CustomLegend = ({ payload }) => (
+    <div className='flex gap-16 mt-6'>
+        {payload.map((entry, index) => (
+            <div key={`legend-${index}`} className="flex items-center">
+                <div className="rounded-full" style={{ backgroundColor: COLORS[index % COLORS.length], width: '12px', height: '12px', marginRight: '8px' }}></div>
+                <div className="legend-text font-medium text-[#121212] opacity-70">{entry.value}</div>
+            </div>
+        ))}
+    </div>
+);
 
 
 const Barchart = () => {
@@ -27,9 +39,9 @@ const Barchart = () => {
                 <div className='space-y-2'>
                     <div className='flex justify-between'>
                         <h2 className='text-[#000000] text-xl'>Revenue</h2>
-                        <button onClick={()=>document.getElementById('my_modal_1').showModal()} className='text-[#5A6ACF] bg-[#DDE4F0]  btn bg-opacity-50'>View Report</button>
+                        <button onClick={() => document.getElementById('my_modal_1').showModal()} className='text-[#5A6ACF] bg-[#DDE4F0]  btn bg-opacity-50'>View Report</button>
                         <dialog id="my_modal_1" className="modal">
-                          <NewsLetter />
+                            <NewsLetter />
                         </dialog>
                     </div>
                     <p className='text-[#000000] text-2xl font-medium'>IDR 7.852.000</p>
@@ -48,7 +60,7 @@ const Barchart = () => {
                     <CartesianGrid strokeDasharray="3 3" vertical={false} />
                     <XAxis dataKey="date" axisLine={{ stroke: '#737B8B' }} tickLine={false} stroke='#737B8B' />
                     <Tooltip />
-                    <Legend align='left' iconType='round' />
+                    <Legend content={CustomLegend} />
                     <Bar dataKey="last6Days" fill="#5A6ACF" name="Last 6 days" />
                     <Bar dataKey="lastWeek" fill="#E6E8EC" name="Last Week" />
                 </BarChart>
