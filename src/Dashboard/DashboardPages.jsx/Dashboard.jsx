@@ -1,7 +1,7 @@
 import React from 'react';
 import Barchart from '../../Components/Charts/Barchart';
 import OrderChart from '../../Components/Charts/OrderChart';
-
+import Rating from '../../Components/Charts/Rating'
 
 
 const Dashboard = () => {
@@ -12,6 +12,9 @@ const Dashboard = () => {
             <div className='md:grid grid-cols-2'>
             <Barchart />
             <OrderChart />
+            </div>
+            <div className='grid grid-cols-3'>
+            <Rating />
             </div>
         </div>
    
