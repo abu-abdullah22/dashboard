@@ -27,33 +27,34 @@ Welcome to the Good Food Dashboard project! This is a dashboard application that
 
 Here's an overview of the project structure:
 
-DASHBOARD
-├── public
-├── src
-│   ├── assets
-│   ├── Components
-│   │   ├── Charts
-│   │   │   ├── Barchart.jsx
-│   │   │   ├── MostOrderedFoodChart.jsx
-│   │   │   ├── OrderChart.jsx
-│   │   │   ├── Rating.jsx
-│   │   │   ├── Sales.jsx
-│   │   ├── Shared
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── NewsLetter.jsx
-│   │   │   ├── Options.jsx
-│   │   ├── Sidebar
-│   │   │   ├── OpenSidebar.jsx
-│   │   │   ├── Sidebar.jsx
-│   │   ├── Dashboard
-│   │   │   ├── DashboardPages.jsx
-│   │   │   ├── CustomerReview.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── FoodOrder.jsx
-│   │   │   ├── ManageMenu.jsx
-│   │   │   ├── DashboardLayout.jsx
-│   ├── Router
-│   │   ├── Router.jsx
+DASHBOARD<br/>
+├── public<br/>
+├── src<br/>
+│   ├── assets<br/>
+│   ├── Components<br/>
+│   │   ├── Charts<br/>
+│   │   │   ├── Barchart.jsx<br/>
+│   │   │   ├── MostOrderedFoodChart.jsx<br/>
+│   │   │   ├── OrderChart.jsx<br/>
+│   │   │   ├── Rating.jsx<br/>
+│   │   │   ├── Sales.jsx<br/>
+│   │   ├── Shared<br/>
+│   │   │   ├── Navbar.jsx<br/>
+│   │   │   ├── NewsLetter.jsx<br/>
+│   │   │   ├── Options.jsx<br/>
+│   │   ├── Sidebar<br/>
+│   │   │   ├── OpenSidebar.jsx<br/>
+│   │   │   ├── Sidebar.jsx<br/>
+│   │   ├── Dashboard<br/>
+│   │   │   ├── DashboardPages.jsx<br/>
+│   │   │   ├── CustomerReview.jsx<br/>
+│   │   │   ├── Dashboard.jsx<br/>
+│   │   │   ├── FoodOrder.jsx<br/>
+│   │   │   ├── ManageMenu.jsx<br/>
+│   │   │   ├── DashboardLayout.jsx<br/>
+│   ├── Router<br/>
+│   │   ├── Router.jsx<br/>
+
 
 
 
