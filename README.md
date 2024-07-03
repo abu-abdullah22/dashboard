@@ -58,6 +58,7 @@ DASHBOARD
 
 
 
+
 ## Challenges
 
 During the development of the Good Food Dashboard, I encountered several challenges:
