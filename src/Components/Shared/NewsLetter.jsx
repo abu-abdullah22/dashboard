@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsLetter = () => {
     return (
-        <div className="modal-box rounded-[32px]">
+        <div className="modal-box rounded-[32px] dm-sans">
             <div className="modal-action">
             <form method="dialog">
                 <button className="text-[#170F49] text-2xl mt-[-10px] w-4 h-4">X</button>

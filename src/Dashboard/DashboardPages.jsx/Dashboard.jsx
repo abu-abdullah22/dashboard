@@ -2,6 +2,8 @@ import React from 'react';
 import Barchart from '../../Components/Charts/Barchart';
 import OrderChart from '../../Components/Charts/OrderChart';
 import Rating from '../../Components/Charts/Rating'
+import MostOrderedFood from '../../Components/Charts/MostOrderedFood';
+import Sales from '../../Components/Charts/Sales';
 
 
 const Dashboard = () => {
@@ -13,8 +15,10 @@ const Dashboard = () => {
             <Barchart />
             <OrderChart />
             </div>
-            <div className='xl:grid grid-cols-3'>
+            <div className='xl:grid grid-cols-3 mb-16'>
             <Rating />
+            <MostOrderedFood />
+            <Sales />
             </div>
         </div>
    

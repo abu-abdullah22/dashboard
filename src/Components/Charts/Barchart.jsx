@@ -35,7 +35,7 @@ const CustomLegend = ({ payload }) => (
 const Barchart = () => {
     return (
         <IconlyProvider>
-            <div className='ml-10 mt-10  overflow-x-auto border-b-[0.5px] border-b-[#C8CBD9] pb-10 border-r-[0.5px] border-r-[#C8CBD9] pr-10'>
+            <div className='ml-10 mt-10  overflow-x-auto border-b-[0.5px] border-b-[#C8CBD9] pb-10 border-r-[0.5px] border-r-[#C8CBD9] pr-10 border-opacity-50'>
                 <div className='space-y-2'>
                     <div className='flex justify-between'>
                         <h2 className='text-[#000000] text-xl'>Revenue</h2>
@@ -58,7 +58,7 @@ const Barchart = () => {
                     margin={{ top: -10, right: 0, left: 0, bottom: 0 }}
                 >
                     <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                    <XAxis dataKey="date" axisLine={{ stroke: '#737B8B' }} tickLine={false} stroke='#737B8B' />
+                    <XAxis dataKey="date" axisLine={{ stroke: '#737B8B' }} tickLine={false} stroke='rgba(115, 123, 139, 0.5)' />
                     <Tooltip />
                     <Legend content={CustomLegend} />
                     <Bar dataKey="last6Days" fill="#5A6ACF" name="Last 6 days" />

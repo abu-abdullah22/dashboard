@@ -45,7 +45,7 @@ const CustomLegend = () => (
 export default class Example extends PureComponent {
     render() {
         return (
-            <div className='mt-[30px] mr-10 overflow-x-auto border-b-[0.5px] border-b-[#C8CBD9]'>
+            <div className='mt-[30px] mr-10 border-opacity-50 overflow-x-auto border-b-[0.5px] border-b-[#C8CBD9]'>
                 <div className='space-y-2'>
                     <div className='flex justify-between items-center'>
                         <h2 className='text-[#000000] text-xl ml-10'>Order Time</h2>
