@@ -13,7 +13,7 @@ const Dashboard = () => {
             <Barchart />
             <OrderChart />
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='xl:grid grid-cols-3'>
             <Rating />
             </div>
         </div>

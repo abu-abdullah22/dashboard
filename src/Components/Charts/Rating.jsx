@@ -9,7 +9,7 @@ const Rating = () => {
   ];
 
   return (
-    <div className="ml-10 py-10 md:border-r-[0.5px] border-r-[#C8CBD9]">
+    <div className="ml-10 py-10 xl:border-r-[0.5px] md:border-b-[0.5px] xl:border-b-0 border-r-[#C8CBD9] w-[80%]">
       <h3 className="text-xl font-semibold mb-2">Your Rating</h3>
       <p className="text-[#000000] opacity-50 mb-4">Lorem ipsum dolor sit amet, consectetur</p>
       <div className="flex flex-col xl:flex-row flex-wrap justify-center gap-4"> 
@@ -17,7 +17,7 @@ const Rating = () => {
           {ratings.slice(0, 2).map((rating, index) => (
             <div
               key={rating.label}
-              className={`relative ${index === 0 ? 'xl:-translate-x-[-120px] xl:-translate-y-12' : ''} z-${index === 0 ? 10 : 0}`}
+              className={`relative ${index === 0 ? 'xl:translate-x-[120px] translate-x-[-50px] translate-y-32 xl:-translate-y-12' : ''} z-${index === 0 ? 10 : 0}`}
               style={{ width: `${rating.size}px`, height: `${rating.size}px` }}
             >
               <ResponsiveContainer width="100%" height="100%">
@@ -29,7 +29,7 @@ const Rating = () => {
                     innerRadius="70%"
                     outerRadius="80%"
                     startAngle={90}
-                    endAngle={-180}
+                    endAngle={-140}
                     dataKey="value"
                   >
                     <Cell key="completed" fill={rating.color} />
@@ -45,7 +45,7 @@ const Rating = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center xl:mt-[-135px] 2xl:mr-[219px] xl:mr-[130px]">
+        <div className="flex justify-center xl:mt-[-135px] 2xl:mr-[110px] xl:mr-[130px] mr-[235px] mt-[-130px]">
           {ratings.slice(2).map((rating) => (
             <div key={rating.label} className="flex justify-center">
               <div className="relative" style={{ width: `${rating.size}px`, height: `${rating.size}px` }}>
