@@ -49,8 +49,8 @@ const Sales = () => {
             <XAxis dataKey="date" axisLine={{ stroke: '#737B8B' }} tickLine={false} stroke='rgba(115, 123, 139, 0.5)' interval={0} padding={{ left: 10, right: 10 }} />
             <Tooltip />
             <Legend content={CustomLegend}/>
-            <Line dot={false} dataKey="last6days" stroke="#5A6ACF" />
-            <Line dot={false}  dataKey="lastWeek" stroke="#E6E8EC" />
+            <Line dot={false} dataKey="last6days" stroke="#5A6ACF" name='Last 6 days'/>
+            <Line dot={false}  dataKey="lastWeek" stroke="#E6E8EC"  name='Last Week'/>
           </LineChart>
         </ResponsiveContainer>
       </div>

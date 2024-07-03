@@ -10,7 +10,7 @@ const Rating = () => {
 
   return (
     <div className="ml-10 py-10 xl:border-r-[0.5px] border-b-[0.5px] border-opacity-50 xl:border-b-0 border-r-[#C8CBD9] w-[80%]">
-      <h3 className="text-xl mb-2">Your Rating</h3>
+      <h3 className="text-xl text-[#000000] mb-2">Your Rating</h3>
       <p className="text-[#000000] opacity-50 mb-4">Lorem ipsum dolor sit amet, consectetur</p>
       <div className="flex flex-col xl:flex-row flex-wrap justify-center gap-4"> 
         <div className="flex flex-col xl:flex-row items-center relative gap-3">
