@@ -30,30 +30,31 @@ Here's an overview of the project structure:
 DASHBOARD
 ├── public
 ├── src
-│ ├── assets
-│ ├── Components
-│ │ ├── Charts
-│ │ │ ├── Barchart.jsx
-│ │ │ ├── MostOrderedFoodChart.jsx
-│ │ │ ├── OrderChart.jsx
-│ │ │ ├── Rating.jsx
-│ │ │ ├── Sales.jsx
-│ │ ├── Shared
-│ │ │ ├── Navbar.jsx
-│ │ │ ├── NewsLetter.jsx
-│ │ │ ├── Options.jsx
-│ │ ├── Sidebar
-│ │ │ ├── OpenSidebar.jsx
-│ │ │ ├── Sidebar.jsx
-│ │ ├── Dashboard
-│ │ │ ├── DashboardPages.jsx
-│ │ │ ├── CustomerReview.jsx
-│ │ │ ├── Dashboard.jsx
-│ │ │ ├── FoodOrder.jsx
-│ │ │ ├── ManageMenu.jsx
-│ │ │ ├── DashboardLayout.jsx
-│ ├── Router
-│ │ ├── Router.jsx
+│   ├── assets
+│   ├── Components
+│   │   ├── Charts
+│   │   │   ├── Barchart.jsx
+│   │   │   ├── MostOrderedFoodChart.jsx
+│   │   │   ├── OrderChart.jsx
+│   │   │   ├── Rating.jsx
+│   │   │   ├── Sales.jsx
+│   │   ├── Shared
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── NewsLetter.jsx
+│   │   │   ├── Options.jsx
+│   │   ├── Sidebar
+│   │   │   ├── OpenSidebar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   ├── Dashboard
+│   │   │   ├── DashboardPages.jsx
+│   │   │   ├── CustomerReview.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── FoodOrder.jsx
+│   │   │   ├── ManageMenu.jsx
+│   │   │   ├── DashboardLayout.jsx
+│   ├── Router
+│   │   ├── Router.jsx
+
 
 
 
